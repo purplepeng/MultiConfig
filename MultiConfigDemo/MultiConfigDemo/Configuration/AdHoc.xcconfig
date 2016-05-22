@@ -1,0 +1,16 @@
+//
+//  AdHoc.xcconfig
+//  bbm2
+//
+//  Created by PURPLEPENG on 5/3/16.
+//  Copyright © 2016 PURPLEPENG. All rights reserved.
+//
+
+#include "ProductBase.xcconfig"
+
+// Bundle Name
+CUSTOM_PRODUCT_NAME = MultiConfigDemo AdHoc
+
+// Bundle Identifier
+CUSTOM_BUNDLE_IDENTIFIER = com.yourcompany.MultiConfigDemo.inhouse
+

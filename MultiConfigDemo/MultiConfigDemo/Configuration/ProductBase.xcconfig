@@ -1,0 +1,39 @@
+//
+//  ProductBase.xcconfig
+//  bbm2
+//
+//  Created by PURPLEPENG on 5/8/16.
+//  Copyright © 2016 PURPLEPENG. All rights reserved.
+//
+
+// URL Types 配置
+// APP
+APPBundleURLName = com.yourcompany.MultiConfigDemo
+APPBundleURLSchemes = MultiConfigDemo
+
+// 微博
+WBAPPKey = YourWBAPPKey(ProductEnvironment)
+WBAPPScret = YourWBAPPScret(ProductEnvironment)
+WBRedirectURL = YourWBRedirectURL(ProductEnvironment)
+//WBRedirectURL = http:\/\/127.0.0.1
+// 注意url的写法
+
+WBBundleURLName = YourWBBundleURLName(ProductEnvironment)
+WBBundleURLSchemes = YourWBBundleURLSchemes(ProductEnvironment)
+
+// 微信
+WXAPPID = YourWXAPPID(ProductEnvironment)
+WXAPPScret = YourWXAPPScret(ProductEnvironment)
+
+WXBundleURLName = YourWXBundleURLName(ProductEnvironment)
+WXBundleURLSchemes = YourWXBundleURLSchemes(ProductEnvironment)
+
+// QQ
+QQAPPID = YourQQAPPID(ProductEnvironment)
+
+QQBundleURLName = YourQQBundleURLName(ProductEnvironment)
+QQBundleURLSchemes = YourQQBundleURLSchemes(ProductEnvironment)
+
+// 3th key
+// umeng
+UMengAppKey = YourUMengAppKey(ProductEnvironment)
