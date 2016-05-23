@@ -59,14 +59,14 @@ iOS multi-environment configuration with multi lanes use fastlane.
 ###3. 配置步骤🐎
 1. 添加configurations到Xcode工程中
 
-	![Config-1](/Users/PURPLEPENG/Documents/Effective/Config-1.png)
+	![config-1](https://cloud.githubusercontent.com/assets/3256113/15461539/3ad28774-20ee-11e6-9a2a-3a02554f260d.png)
 2. 在build scheme中设置configuration
 	
-	![Config-2](/Users/PURPLEPENG/Documents/Effective/Config-2.png)
+	![config-2](https://cloud.githubusercontent.com/assets/3256113/15461542/3ad71c80-20ee-11e6-87e5-bd26cb66facf.png)
 	![Config-3](/Users/PURPLEPENG/Documents/Effective/Config-3.png)
 3. 创建多个.xcconfig文件
 
-	![Config-4](/Users/PURPLEPENG/Documents/Effective/Config-4.png)
+	![config-4](https://cloud.githubusercontent.com/assets/3256113/15461541/3ad5693a-20ee-11e6-8dc1-f547e48955f4.png)
 4. target中的每个build configuration指派一个.xcconfig文件
 ![Config-5](/Users/PURPLEPENG/Documents/Effective/Config-5.png)
 5. 重写.xcconfig文件中变量的值
