@@ -463,7 +463,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MultiConfigDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.geek-zoo.MultiConfigDemo";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(CUSTOM_BUNDLE_IDENTIFIER)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -474,7 +474,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MultiConfigDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.geek-zoo.MultiConfigDemo";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(CUSTOM_BUNDLE_IDENTIFIER)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -570,7 +570,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MultiConfigDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.geek-zoo.MultiConfigDemo";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(CUSTOM_BUNDLE_IDENTIFIER)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				QQAPPID = "";
 			};
@@ -642,9 +642,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MultiConfigDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.geek-zoo.MultiConfigDemo";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(CUSTOM_BUNDLE_IDENTIFIER)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = AdHoc;
@@ -715,9 +716,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MultiConfigDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.geek-zoo.MultiConfigDemo";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(CUSTOM_BUNDLE_IDENTIFIER)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Beta;
@@ -770,6 +772,7 @@
 				D83E98901CF1A69F005068AE /* Dev */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D83E98891CF1A5E8005068AE /* Build configuration list for PBXNativeTarget "MultiConfigDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -781,6 +784,7 @@
 				D83E98911CF1A69F005068AE /* Dev */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D83E988C1CF1A5E8005068AE /* Build configuration list for PBXNativeTarget "MultiConfigDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -792,6 +796,7 @@
 				D83E98921CF1A69F005068AE /* Dev */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

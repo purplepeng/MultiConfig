@@ -2,6 +2,7 @@
 iOS multi-environment configuration with multi lanes use fastlane.
 
 ##iOS multi-environment configuration
+
 ###1. 各个环境及功能定位🕸
 
 |Configuration|模式|API Server|Provisioning Profiles|Lane✈️|
@@ -90,7 +91,12 @@ iOS multi-environment configuration with multi lanes use fastlane.
 
 	如果项目中使用了第三方授权登录/分享，现在info.plist文件可以如下配置：
 ![Config-6](/Users/PURPLEPENG/Documents/Effective/Config-6.png)		
-
+	如果想着项目代码中引用第三方相关key，info.plist文件需要添加如下设置：
+![Config-8](/Users/PURPLEPENG/Documents/Effective/Config-8.png)		
+7. 不同的Configuration对应不同的lane
+	* 初始化[fastlane](https://github.com/fastlane/fastlane)
+	
+	
 ###4. 附录📖
 ####1. 添加 Build Phase
 * 添加 Run Script Build Phase
@@ -118,3 +124,4 @@ Build Settings中定位到Preprocessor Macros，每个configuration添加
 
 之前的做法是，项目中配置多个target，每个target对应1个schema；然后不同的scheme对应不同的lane。
 现在可以实现成：配置1个target，1个target对应多个Configuration；不同的Configuration对应不同的lane。
+

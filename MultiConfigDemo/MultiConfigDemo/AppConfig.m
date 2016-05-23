@@ -27,6 +27,21 @@ NSString * const kAppServerURL = @"YourAppServerURL(PRODUCT)";
 	return [NSBundle mainBundle].infoDictionary;
 }
 
+#pragma mark -
+
++ (NSString *)bundleID
+{
+    NSDictionary * config = [[self class] dictValueOfInfoFile];
+    NSLog(@"config is %@",config);
+    return config[@"CFBundleIdentifier"];
+}
+
++ (NSString *)bundleName
+{
+    NSDictionary * config = [[self class] dictValueOfInfoFile];
+    return config[@"CFBundleName"];
+}
+
 #pragma mark - 3TH KEY
 
 #pragma mark - 微博

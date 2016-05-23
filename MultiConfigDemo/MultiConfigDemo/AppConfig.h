@@ -16,6 +16,11 @@ FOUNDATION_EXPORT NSString * const kAppServerURL;
 
 @interface AppConfig : NSObject
 
+#pragma mark -
+
++ (NSString *)bundleID;
++ (NSString *)bundleName;
+
 #pragma mark - 3TH KEY
 
 #pragma mark - 微博

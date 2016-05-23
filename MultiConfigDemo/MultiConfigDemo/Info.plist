@@ -7,11 +7,11 @@
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
-	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<string>$(CUSTOM_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>$(PRODUCT_NAME)</string>
+	<string>$(CUSTOM_PRODUCT_NAME)</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -69,5 +69,17 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>WBAPPKey</key>
+	<string>$(WBAPPKey)</string>
+	<key>WBAPPScret</key>
+	<string>$(WBAPPScret)</string>
+	<key>WBRedirectURL</key>
+	<string>$(WBRedirectURL)</string>
+	<key>QQAPPID</key>
+	<string>$(QQAPPID)</string>
+	<key>WXAPPID</key>
+	<string>$(WXAPPID)</string>
+	<key>WXAPPScret</key>
+	<string>$(WXAPPScret)</string>
 </dict>
 </plist>

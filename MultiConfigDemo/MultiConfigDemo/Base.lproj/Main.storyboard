@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +16,84 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bundle ID" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tju-uj-qVw">
+                                <rect key="frame" x="10" y="40" width="59" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AppServerURL" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A9w-wg-GsS">
+                                <rect key="frame" x="10" y="88" width="90" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WBAPPKey" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nbw-XF-pHz">
+                                <rect key="frame" x="10" y="112" width="69" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WBAPPScret" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jVa-Dh-k10">
+                                <rect key="frame" x="10" y="136" width="79" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WBRedirectURL" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wRI-dT-loX">
+                                <rect key="frame" x="10" y="160" width="97" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bundle Name" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z43-Gs-veF">
+                                <rect key="frame" x="10" y="64" width="81" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="jVa-Dh-k10" firstAttribute="top" secondItem="Nbw-XF-pHz" secondAttribute="bottom" constant="8" id="6nn-OV-9qe"/>
+                            <constraint firstItem="A9w-wg-GsS" firstAttribute="top" secondItem="z43-Gs-veF" secondAttribute="bottom" constant="8" id="84u-CH-Upw"/>
+                            <constraint firstItem="wRI-dT-loX" firstAttribute="top" secondItem="jVa-Dh-k10" secondAttribute="bottom" constant="8" id="Fob-zX-KIc"/>
+                            <constraint firstItem="A9w-wg-GsS" firstAttribute="top" secondItem="tju-uj-qVw" secondAttribute="bottom" constant="8" id="K5I-8Y-Q4H"/>
+                            <constraint firstItem="tju-uj-qVw" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="MqH-3m-hh2"/>
+                            <constraint firstItem="A9w-wg-GsS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="PKq-ka-eWy"/>
+                            <constraint firstItem="Nbw-XF-pHz" firstAttribute="top" secondItem="A9w-wg-GsS" secondAttribute="bottom" constant="8" id="TVS-TU-frZ"/>
+                            <constraint firstItem="A9w-wg-GsS" firstAttribute="top" secondItem="z43-Gs-veF" secondAttribute="bottom" constant="8" id="U0D-Q4-jOk"/>
+                            <constraint firstItem="jVa-Dh-k10" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="XJe-P2-Ycs"/>
+                            <constraint firstItem="Nbw-XF-pHz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="Xsu-ce-pOv"/>
+                            <constraint firstItem="tju-uj-qVw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="cQN-Ak-PBb"/>
+                            <constraint firstItem="z43-Gs-veF" firstAttribute="top" secondItem="tju-uj-qVw" secondAttribute="bottom" constant="8" id="dpt-L9-AGt"/>
+                            <constraint firstItem="Nbw-XF-pHz" firstAttribute="top" secondItem="A9w-wg-GsS" secondAttribute="bottom" constant="8" id="ds7-Tq-S0e"/>
+                            <constraint firstItem="wRI-dT-loX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="etY-mS-c5W"/>
+                            <constraint firstItem="jVa-Dh-k10" firstAttribute="top" secondItem="Nbw-XF-pHz" secondAttribute="bottom" constant="8" id="hHT-Xj-7Aj"/>
+                            <constraint firstItem="z43-Gs-veF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="mW9-eU-Ww8"/>
+                            <constraint firstItem="A9w-wg-GsS" firstAttribute="top" secondItem="tju-uj-qVw" secondAttribute="bottom" constant="8" id="oSL-Y1-3Um"/>
+                            <constraint firstItem="wRI-dT-loX" firstAttribute="top" secondItem="jVa-Dh-k10" secondAttribute="bottom" constant="8" id="z2Q-0K-sAS"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="K5I-8Y-Q4H"/>
+                                <exclude reference="oSL-Y1-3Um"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <connections>
+                        <outlet property="WBAPPKeyLabel" destination="Nbw-XF-pHz" id="kQF-WB-qeQ"/>
+                        <outlet property="WBAPPScretKeyLabel" destination="jVa-Dh-k10" id="Vi6-XU-fJe"/>
+                        <outlet property="WBRedirectURLLabel" destination="wRI-dT-loX" id="MVT-NY-ZxN"/>
+                        <outlet property="appServerURLLabel" destination="A9w-wg-GsS" id="eco-rN-B3X"/>
+                        <outlet property="bundleIDLabel" destination="tju-uj-qVw" id="i88-mv-gL0"/>
+                        <outlet property="bundleNameLabel" destination="z43-Gs-veF" id="Bas-lv-Zcu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="228" y="184"/>
         </scene>
     </scenes>
 </document>
