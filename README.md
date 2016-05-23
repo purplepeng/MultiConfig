@@ -63,12 +63,12 @@ iOS multi-environment configuration with multi lanes use fastlane.
 2. 在build scheme中设置configuration
 	
 	![config-2](https://cloud.githubusercontent.com/assets/3256113/15461542/3ad71c80-20ee-11e6-87e5-bd26cb66facf.png)
-	![Config-3](/Users/PURPLEPENG/Documents/Effective/Config-3.png)
+	![config-3](https://cloud.githubusercontent.com/assets/3256113/15461773/4546a008-20f0-11e6-8a57-79aaf39ad14f.png)
 3. 创建多个.xcconfig文件
 
 	![config-4](https://cloud.githubusercontent.com/assets/3256113/15461541/3ad5693a-20ee-11e6-8dc1-f547e48955f4.png)
 4. target中的每个build configuration指派一个.xcconfig文件
-![Config-5](/Users/PURPLEPENG/Documents/Effective/Config-5.png)
+![config-5](https://cloud.githubusercontent.com/assets/3256113/15461776/4db55f68-20f0-11e6-8018-7d0d0bb4655b.png)
 5. 重写.xcconfig文件中变量的值
 			
 		APPBundleURLName = com.yourcompany.MultiConfigDemo
