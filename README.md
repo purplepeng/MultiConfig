@@ -90,9 +90,9 @@ iOS multi-environment configuration with multi lanes use fastlane.
 		<string>$(CUSTOM_PRODUCT_NAME)</string> 
 
 	如果项目中使用了第三方授权登录/分享，现在info.plist文件可以如下配置：
-![Config-6](/Users/PURPLEPENG/Documents/Effective/Config-6.png)		
+![config-6](https://cloud.githubusercontent.com/assets/3256113/15461826/af1f14c4-20f0-11e6-9276-4631040408a1.png)	
 	如果想着项目代码中引用第三方相关key，info.plist文件需要添加如下设置：
-![Config-8](/Users/PURPLEPENG/Documents/Effective/Config-8.png)		
+![config-8](https://cloud.githubusercontent.com/assets/3256113/15461839/d263fe04-20f0-11e6-95cc-92984adae7bc.png)	
 7. 不同的Configuration对应不同的lane
 	* 初始化[fastlane](https://github.com/fastlane/fastlane)
 	
