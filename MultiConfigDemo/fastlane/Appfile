@@ -1,0 +1,7 @@
+app_identifier "com.geek-zoo.MultiConfigDemo" # The bundle identifier of your app
+apple_id "info@geek-zoo.com" # Your Apple email address
+
+team_id "26R8TYMFHL"  # Developer Portal Team ID
+
+# you can even provide different app identifiers, Apple IDs and team names per lane:
+# More information: https://github.com/fastlane/fastlane/blob/master/fastlane/docs/Appfile.md
