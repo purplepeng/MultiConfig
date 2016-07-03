@@ -1,13 +1,13 @@
 # MultiConfig
-iOS multi-environment configuration with multi lanes use fastlane.
+iOS multi-environment configuration with multi lanes use [fastlane](https://github.com/fastlane/fastlane).
 
 ##iOS multi-environment configuration
 
 ###1. 各个环境及功能定位🕸
 
 |Configuration|模式|API Server|Provisioning Profiles|Lane✈️|
-|:-------- | -------:| -------:| -------:| -------:|
-|Debug|调试模式|Development|Development|Debug|
+|:-------- |:-------|:-------|:-------|:-------|
+|Debug|调试模式|Development|Development|-|
 | Dev |开发模式|Development|Development| Dev |
 | AdHoc |内部测试| Production | Distribution Ad Hoc | AdHoc |
 | Beta |TestFlight| Production |Distribution Ad Hoc| Beta |
@@ -15,7 +15,7 @@ iOS multi-environment configuration with multi lanes use fastlane.
 
 `备注：【Debug模式】打包的时候不会出现这种模式`
 
-详细.xconfig配置参照`xcconfigREADME.md`
+详细.xcconfig配置参照[xcconfigREADME.md](https://github.com/purplepeng/MultiConfig/blob/master/MultiConfigDemo/MultiConfigDemo/Configuration/README.md)
 
 ###2. 各个环境中的配置⚙
 * Build identifier（适用）
@@ -123,5 +123,11 @@ Build Settings中定位到Preprocessor Macros，每个configuration添加
 * 如果让多个Configuration和fastlane中不同的lane对应？
 
 之前的做法是，项目中配置多个target，每个target对应1个schema；然后不同的scheme对应不同的lane。
-现在可以实现成：配置1个target，1个target对应多个Configuration；不同的Configuration对应不同的lane。
+现在的实现是：配置1个target，1个target对应多个Configuration；不同的Configuration对应不同的lane。
 
+|Configuration|scheme|Lane✈️|
+|:--------|:-------| :-------|
+| Dev | MultiConfigDemo Dev| Dev |
+| AdHoc |MultiConfigDemo AdHoc| AdHoc |
+| Beta |MultiConfigDemo Beta | Beta |
+| Release | MultiConfigDemo Release |App Store|

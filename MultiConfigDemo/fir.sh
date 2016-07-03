@@ -14,6 +14,5 @@ cd ..
 
 #发布应用到fir.im
 
-#发布应用到fir.im(配置生成的ipa名和fir.im API  Token)
-fir p ./YOUR_PRODUCT.ipa -T YOUR_FIR_TOKEN
-# fir p ./$PROJECT_NAME.ipa -T $FIR_TOKEN
+#发布应用到fir.im(配置生成的ipa名和fir.im API Token)
+fir p ./$PROJECT_NAME.ipa -T $FIR_TOKEN

@@ -38,12 +38,12 @@
 
 - (void)loadConfigData
 {
-    self.bundleIDLabel.text = [NSString stringWithFormat:@"Bundle ID: %@",[AppConfig bundleID]];
-    self.bundleNameLabel.text = [NSString stringWithFormat:@"Bundle Name: %@",[AppConfig bundleName]];
+    self.bundleIDLabel.text = [NSString stringWithFormat:@"%@",[AppConfig bundleID]];
+    self.bundleNameLabel.text = [NSString stringWithFormat:@"%@",[AppConfig bundleName]];
     
-    self.WBAPPKeyLabel.text = [NSString stringWithFormat:@"WBAPPKey: %@",[AppConfig WBAPPKey]];
-    self.WBAPPScretKeyLabel.text = [NSString stringWithFormat:@"WBAPPScret: %@",[AppConfig WBAPPScret]];
-    self.WBRedirectURLLabel.text = [NSString stringWithFormat:@"WBRedirectURL: %@",[AppConfig WBRedirectURL]];
+    self.WBAPPKeyLabel.text = [NSString stringWithFormat:@"%@",[AppConfig WBAPPKey]];
+    self.WBAPPScretKeyLabel.text = [NSString stringWithFormat:@"%@",[AppConfig WBAPPScret]];
+    self.WBRedirectURLLabel.text = [NSString stringWithFormat:@"%@",[AppConfig WBRedirectURL]];
 }
 
 @end

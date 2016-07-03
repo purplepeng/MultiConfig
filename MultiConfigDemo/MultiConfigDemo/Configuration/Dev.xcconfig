@@ -9,8 +9,8 @@
 #include "DevelopmentBase.xcconfig"
 
 // Bundle Name
-CUSTOM_PRODUCT_NAME = MultiConfigDemo Dev
+CUSTOM_PRODUCT_NAME = MC Dev
 
 // Bundle Identifier
-CUSTOM_BUNDLE_IDENTIFIER = com.yourcompany.MultiConfigDemo.Dev
+CUSTOM_BUNDLE_IDENTIFIER = com.geek-zoo.MultiConfig
 
