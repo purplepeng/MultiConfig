@@ -59,16 +59,16 @@ iOS multi-environment configuration with multi lanes use [fastlane](https://gith
 ###3. 配置步骤🐎
 1. 添加configurations到Xcode工程中
 
-	![Config-1](/Users/PURPLEPENG/Documents/Effective/Config-1.png)
+	![config-1](https://cloud.githubusercontent.com/assets/3256113/15461539/3ad28774-20ee-11e6-9a2a-3a02554f260d.png)
 2. 在build scheme中设置configuration
 	
-	![Config-2](/Users/PURPLEPENG/Documents/Effective/Config-2.png)
-	![Config-3](/Users/PURPLEPENG/Documents/Effective/Config-3.png)
+	![config-2](https://cloud.githubusercontent.com/assets/3256113/15461542/3ad71c80-20ee-11e6-87e5-bd26cb66facf.png)
+	![config-3](https://cloud.githubusercontent.com/assets/3256113/15461773/4546a008-20f0-11e6-8a57-79aaf39ad14f.png)
 3. 创建多个.xcconfig文件
 
-	![Config-4](/Users/PURPLEPENG/Documents/Effective/Config-4.png)
+	![config-4](https://cloud.githubusercontent.com/assets/3256113/15461541/3ad5693a-20ee-11e6-8dc1-f547e48955f4.png)
 4. target中的每个build configuration指派一个.xcconfig文件
-![Config-5](/Users/PURPLEPENG/Documents/Effective/Config-5.png)
+![config-5](https://cloud.githubusercontent.com/assets/3256113/15461776/4db55f68-20f0-11e6-8018-7d0d0bb4655b.png)
 5. 重写.xcconfig文件中变量的值
 			
 		APPBundleURLName = com.yourcompany.MultiConfigDemo
@@ -90,9 +90,9 @@ iOS multi-environment configuration with multi lanes use [fastlane](https://gith
 		<string>$(CUSTOM_PRODUCT_NAME)</string> 
 
 	如果项目中使用了第三方授权登录/分享，现在info.plist文件可以如下配置：
-![Config-6](/Users/PURPLEPENG/Documents/Effective/Config-6.png)		
+![config-6](https://cloud.githubusercontent.com/assets/3256113/15461826/af1f14c4-20f0-11e6-9276-4631040408a1.png)	
 	如果想着项目代码中引用第三方相关key，info.plist文件需要添加如下设置：
-![Config-8](/Users/PURPLEPENG/Documents/Effective/Config-8.png)		
+![config-8](https://cloud.githubusercontent.com/assets/3256113/15461839/d263fe04-20f0-11e6-95cc-92984adae7bc.png)	
 7. 不同的Configuration对应不同的lane
 	* 初始化[fastlane](https://github.com/fastlane/fastlane)
 	
